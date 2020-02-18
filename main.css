@@ -1,0 +1,430 @@
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+body{
+
+    margin: 0;
+}
+.conteinerishe{
+    max-width: 2340px;
+    margin: 0 auto;
+
+}
+
+.wraper-page{
+    width: 100%;
+position: relative;
+    overflow: hidden;
+}
+
+.conteiner{
+
+    background-color: #1e1e1e;
+    overflow: hidden;
+    position: relative;
+    margin: 0 -9999px;
+    padding: 0 9999px;
+
+}
+
+.wrapper{
+width: 100%;
+    height: 100vh;
+    max-height: 810px;
+    padding-top: 110px;
+    display: flex;
+
+}
+.me-logo{
+    width: 100%;
+    max-width: 1212px;
+    height: 100vh;
+    max-height: 600px;
+    border-right: 2px solid white;
+display: flex;
+}
+.myname{
+     padding-top: 150px;
+     padding-left: 77px;
+     line-height: 0;
+ }
+.name{
+font-family: "Myriad Pro";
+    font-size: 118.4px;
+    color: white;
+}
+.name1{
+    font-family: "Myriad Pro";
+    font-size: 118.4px;
+    color: #d07628;
+    padding-top: 40px;
+}
+.graphic{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 33.3px;
+    color: white;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+
+.contacts{
+    width:100%;
+    height: 100vh;
+    max-width: 1044px;
+    max-height: 250px;
+    border-bottom: 2px solid white;
+    margin-left: 82px;
+    font-size: 33.3px;
+color:  white;
+}
+
+.contacts-item{
+    display: flex;
+}
+.contacts-item1{
+    display: flex;
+    padding-top: 40px;
+}
+.contacts-item2{
+    display: flex;
+    padding-top: 40px;
+}
+.aboutme{
+    color: #a2a2a2;
+    margin-left: 110px;
+
+    height: 100vh;
+    max-width: 1044px;
+    max-height: 250px;
+}
+.title{
+    font-size: 77px;
+}
+.text  {
+    font-size: 33.31px;
+}
+
+.mylinks{
+    width:100%;
+
+    max-width: 2340px;
+
+    border-top:2px solid white ;
+
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.link-list{
+    display: flex;
+}
+
+.link-item{
+    padding-left: 70px;
+    list-style-type: none;
+    font-size: 40px;
+    color: white;
+}
+.conteiner2{
+
+    background-color: #ffffff;
+    overflow: hidden;
+    position: relative;
+    margin: 0 -9999px;
+    padding: 0 9999px;
+}
+
+.wrapper1{
+
+    width: 2340px;
+    height: 1240px;
+    display: flex;
+    margin: 0 auto;
+}
+.experience{
+    width: 100%;
+    max-width: 1434px;
+
+}
+.titleo {
+    font-size: 70.5px;
+    padding-top: 5%;
+}
+.senior-block{
+    display: flex;
+
+}
+.senior-text{
+    border-top: 2px solid grey;
+    margin-left: 110px;
+}
+.senior-text1,
+.senior-text2{
+    margin-left: 110px;
+}
+.title-senior{
+    width: 100%;
+    max-width: 268px;
+    text-align: right;
+    margin-top: 5%;
+}
+.senior-title{
+    color: #128fc1;
+    margin: 0;
+}
+.year{
+    margin-top: 0;
+    color: #808285;
+    font-size: 25px;
+}
+.titleblock{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.text-senior{
+    font-size: 30px;
+    margin-top: 0;
+}
+.skil{
+    width: 922px;
+margin-left: 4%;
+
+}
+.wrapper-skil{
+    width: 100%;
+    overflow: hidden;
+    background-color: #6fd0f6;
+    position: relative;
+    margin: 0 -9999px 0 0;
+    padding: 0 9999px 0 0;
+height: 50%;
+}
+.conteiner-skil{
+    width: 820px;
+
+}
+.wrapper-skil1{
+    width: 100%;
+    overflow: hidden;
+    background-color: #eddc45;
+    position: relative;
+    margin: 0 -9999px 0 0;
+    padding: 0 9999px 0 0;
+    height: 50%;
+}
+.conteiner-skil1{
+    width: 820px;
+
+}
+
+.title{
+    margin: 0;
+}
+.it-skills{
+    width: 100%;
+}
+.skill-title{
+    width: 100%;
+   max-width: 300px;
+    text-align: right;
+    margin-top: 3%;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+.photoshop-block,
+.illustrator-block,
+.js-block,
+.css-block,
+.creativity-block,
+.lid-block,
+.hard-block,
+.team-block{
+    display: flex;
+    margin-top: 4%;
+}
+.photoshop-block1{
+    display: flex;
+    margin-top: 2%;
+}
+.off-knopka{
+    width: 100%;
+    max-width: 300px;
+    height: 20px;
+    border: 2px solid black;
+    margin-top: 3%;
+    margin-left: 15%;
+    border-radius: 60px;
+}
+.on-knopka{
+    width: 100%;
+    max-width: 200px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 60px;
+    background-color: black;
+
+}
+.top-poloska    {
+        width: 100%;
+border-top: 2px solid grey;
+    margin-left: 15%;
+}
+.off-knopka1{
+    width: 100%;
+    max-width: 300px;
+    height: 20px;
+    border: 2px solid black;
+    margin-top: 3%;
+    border-radius: 60px;
+}
+.on-knopka1{
+    width: 100%;
+    max-width: 200px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 60px;
+    background-color: black;
+
+}
+
+.wrapper3{
+    overflow: hidden;
+    position: relative;
+    background-color: #e4e2e3;
+    margin: 0 -9999px;
+    padding: 0 9999px;
+}
+.conteiner3{
+    width: 100%;
+    height: 840px;
+}
+.blochok{
+    display: flex;
+}
+.education{
+    font-size: 70.5px;
+    padding-top: 3%;
+    margin: 0;
+}
+.poloco{
+    width: 100%;
+    height: 1px;
+    border: 1px solid grey;
+    background-color: grey;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+.content{
+    display: flex;
+    margin-top: 3%;
+}
+.content-title{
+    width: 100%;
+    max-width: 268px;
+    text-align: right;
+    margin-top: 2%;
+}
+.content-text{
+    margin-left: 110px;
+}
+.cont{
+font-size: 35px;
+margin-bottom: 0;
+    margin-top: 2%;
+}
+.cont-text{
+font-size: 30px;
+margin-top: 0;
+}
+
+.wrapper4{
+
+    background-color: white;
+
+    position: relative;
+
+}
+.conteiner4{
+
+    width: 1522px;
+    height: 480px;
+
+}
+.blochok1{
+    display: flex;
+}
+.hobbies{
+    font-size: 75.5px;
+    padding-top: 3%;
+    margin: 0;
+}
+.poloco1{
+    width: 1000px;
+    height: 1px;
+    border: 1px solid grey;
+    background-color: grey;
+    margin-top: 110px;
+    margin-left: 110px;
+}
+.list-hobbi{
+    display: flex;
+    margin-top: 3%;
+    padding: 0;
+}
+.hobbi-item:not(:first-child){
+    padding-left: 5%;
+}
+
+.hobbi-item{
+    list-style-type: none;
+    font-size: 33px;
+
+}
+.wrapall    {
+    display: flex;
+
+    margin: 0 -9999px;
+    padding: 0 9999px;
+
+}
+
+.wrapper5{
+    width: 100%;
+    overflow: hidden;
+    background-color: #f0efef;
+    position: relative;
+    margin: 0 -9999px 0 0;
+    padding: 0 9999px 0 0;
+
+}
+.conteiner5{
+width: 820px;
+    height: 480px;
+}
+
+.poloco2{
+    width: 100%;
+    height: 1px;
+    border: 1px solid grey;
+    background-color: grey;
+    margin-top: 110px;
+    margin-left: 110px;
+}
+.education1{
+    font-size: 70.5px;
+    padding-top: 6%;
+    margin: 0;
+    padding-left: 8%;
+    text-transform: uppercase;
+white-space: nowrap;
+}
+.list-image{
+    width: 80px;
+    height: 75px;
+    padding-left: 5%;
+}
+a{
+    text-decoration: none;
+}
+
